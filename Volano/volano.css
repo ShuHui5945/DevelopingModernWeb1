@@ -1,0 +1,525 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2017, 5:41:54 AM
+    Author     : User
+*/
+a, a:hover, a:focus {
+  color: #9c27b0;
+}
+body {
+  background-color: #CCCCCC;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+#best h4 {
+    margin-bottom: 30px;
+}
+.btn.btn-danger, .btn.btn-danger:hover{
+    background-color: #c12e2a;
+    background-image: linear-gradient(to bottom,#c12e2a 0,#c12e2a 100%);
+}
+.btn.btn-primary:hover, .btn.btn-danger:hover{
+    box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+.btn.btn-primary, .btn.btn-primary:hover{
+    background-color: #9c27b0;
+    background-image: linear-gradient(to bottom,#9c27b0 0,#9c27b0 100%);
+    color: #FFFFFF;
+}
+.btn.btn-primary, .btn.btn-danger {
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+.btn, .navbar .navbar-nav > li > a.btn {
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    padding: 12px 30px;
+    margin: 10px 1px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.description {
+    color: #999999;
+}
+.form-control {
+    height: 36px;
+    padding: 7px 0;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.form-group .form-control {
+    margin-bottom: 7px;
+}
+.form-control, .form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400;
+}
+.form-group {
+    padding-bottom: 7px;
+    margin: 27px 0 0 0;
+}
+.form-group {
+    position: relative;
+}
+.form-group.label-floating label.control-label{
+    top: -7px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.form-group.label-floating label.control-label {
+    position: absolute;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+form-group label.control-label {
+    color: #AAAAAA;
+    font-weight: 400;
+    margin: 16px 0 0 0;
+}
+h2, .h2 {
+    font-size: 2.6em;
+}
+h3, .h3 {
+    font-size: 1.825em;
+    line-height: 1.4em;
+    margin: 20px 0 10px;
+}
+h4, .h4 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+.header-filter {
+    position: relative;
+}
+.header-filter .container {
+    z-index: 2;
+    position: relative;
+}
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.main {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 3;
+}
+
+.main-raised {
+  margin: -60px 30px 0px;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.section {
+    padding: 120px 0;
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+}
+.section .section-live{
+    background-color:lightcyan;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.section-pass{
+    background-color: cyan;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.space-50 {
+    height: 50px;
+    display: block;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    font-weight: 500;
+    color: #3C4858;
+}
+.title, .title a, .info-title, .info-title a, .footer-brand, .footer-brand a, .footer-big h5, .footer-big h5 a, .footer-big h4, .footer-big h4 a, .media .media-heading, .media .media-heading a {
+    color: #3C4858;
+    text-decoration: none;
+}
+.wrapper > .header {
+    min-height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+/*Navbar*/
+.navbar {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+.navbar, .navbar.navbar-default {
+    background-color: #9c27b0;
+    color: #ffffff;
+}
+.navbar.navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    padding-top: 25px;
+}
+.navbar.navbar-transparent .logo-container .brand {
+  color: #a200ff;
+}
+.navbar-fixed-top {
+  border-radius: 0;
+}
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar .navbar-toggle {
+    border: 0;
+}
+
+/*Logo*/
+.logo-container .logo{
+    overflow: hidden;
+
+    width: 50px;
+    float: left;
+}
+
+.logo-container .brand{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 70px;
+    height: 40px;
+    text-align: left;
+}
+
+.logo-container .logo img{
+    width: 100%;
+}
+
+/*Transitions */
+.presentation .front, .presentation .front:after, .presentation .front .btn, .logo-container .logo, .logo-container .brand{
+     -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+/*Index Page*/
+.index-page .header {
+  height: 100vh;
+}
+.index-page .header .container {
+  padding-top: 26vh;
+  color: darkgray;
+}
+.index-page .header h1 {
+  font-weight: 600;
+}
+.index-page .section-basic {
+    padding-top: 15px;
+}
+.index-page .best{
+    margin-top: 80px;
+}
+.index-page .best .best-player img {
+    max-width: 170px;
+}
+
+/*SignUp Page*/
+.header-filter .container {
+    z-index: 2;
+    position: relative;
+}
+.header-filter {
+    position: relative;
+}
+.signUp-page .wrapper > .header {
+    min-height: 100vh;
+}
+.wrapper > .header {
+    min-height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+.signUp-page .wrapper .card-signup {
+    margin: 160px 0 40px;
+}
+.card {
+    color: rgba(0,0,0, 0.87);
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.card [class*="header-"] {
+    color: #FFFFFF;
+}
+.card-signup .header {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0;
+}
+.card .header-primary {
+    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+.card .header {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    border-radius: 3px;
+    padding: 15px 0;
+    background-color: #FFFFFF;
+}
+.card-signup .content {
+    padding: 0px 30px 0px 10px;
+}
+.input-group .input-group-addon {
+    border: 0;
+    background: transparent;
+    padding: 12px 15px 0px;
+}
+.form-group {
+    padding-bottom: 7px;
+    margin: 27px 0 0 0;
+}
+.form-group {
+    position: relative;
+}
+.form-group .form-control {
+    margin-bottom: 7px;
+}
+.form-control, .form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    font-weight: 400;
+}
+.form-control {
+    height: 36px;
+    padding: 7px 0;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.form-group {
+    padding-bottom: 7px;
+    margin: 27px 0 0 0;
+}
+.form-group {
+    position: relative;
+}
+a.btn.btn-primary.btn-simple,{
+    background-color: transparent;
+    color: #9c27b0;
+    box-shadow: none;
+}
+.index-page .section-live {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+/*SignIn page*/
+.signIn-page .wrapper > .header {
+    min-height: 100vh;
+}
+.signIn-page .wrapper .card-signin {
+    margin: 160px 0 40px;
+}
+.card-signin .header {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0;
+}
+.card .header-primary {
+    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+.card .header {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    border-radius: 3px;
+    padding: 15px 0;
+    background-color: #FFFFFF;
+}
+.card-signin .content {
+    padding: 0px 30px 0px 10px;
+}
+.footer.text-center a:hover{
+    text-decoration: none;
+}
+.footer.text-center{
+    padding-bottom: 10px;
+}
+/*ranking page*/
+.rank-page .header {
+  height: 100vh;
+}
+.rank-page .header .container {
+  padding-top: 26vh;
+  color: darkgray;
+}
+.rank-page .header h1 {
+  font-weight: 600;
+}
+.rank-page .section-basic {
+    padding-top: 15px;
+}
+.rank-page .best{
+    margin-top: 80px;
+}
+.rank-page .best .best-player img {
+    max-width: 170px;
+}
+.section .section-mSingle, .section .section-wSingle, .section .section-mDouble, .section .section-wDouble, .section .section-mixDouble{
+    background-color:lightcyan;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.section .section-mSingle a, .section .section-wSingle a, .section .section-mDouble a, .section .section-wDouble a, .section .section-mixDouble a{
+    text-decoration: none;
+    color: #333;
+}
+.section .section-tournament{
+    
+}
+.icon-f img{
+    width: 50px;
+    height: 25px;
+}
+
+/*tournament*/
+.tournament-page .header {
+  height: 100vh;
+}
+.tournament-page .header .container {
+  padding-top: 26vh;
+  color: darkgray;
+}
+.tournament-page .header h1 {
+  font-weight: 600;
+}
+.tournament-page .section-tournament {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+ .section .section-tournament{
+    background-color:lightgrey;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/*profile page*/
+.profile-page .header {
+    height: 380px;
+    background-position: top center;
+}
+.profile-page .profile {
+    text-align: center;
+}
+.profile-page .profile img {
+    max-width: 160px;
+    margin: -80px auto 0;
+}
+h6 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 1.825em;
+    line-height: 1.4em;
+    margin: 20px 0 10px;
+}
+/*Footer*/
+footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a:hover {
+    text-decoration: none;
+}
+footer ul li a {
+    color: inherit;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+footer .copyright {
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .footer .copyright {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    float: none !important;
+    width: 100%;
+  }
+
+  .navbar.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    border-radius: 0;
+  }
+
+  .main-raised {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
